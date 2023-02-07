@@ -55,23 +55,24 @@ ul.nav li{
     font-weight: bold;
 }
 
+.button:hover{
+    opacity: 0.8;
+    box-shadow: 2px 3px 5px var(--bg-footer);
+}
+
+.white-button:hover{
+    opacity: 1;
+}
+
+
 .white-button{
     background-color: var(--primary-color);
+    color: var(--dark-text);
 }
 
 .black-button{
     background-color: var(--dark-text);
     color: var(--primary-color);
-}
-
-a:link {
-    color : var(--dark-text);
-    text-decoration: none
-}
-
-a:visited{
-    color : var(--primary-color);
-    text-decoration: none
 }
 
 .white-button a:visited {
@@ -231,6 +232,26 @@ li ul li{
    
 }
 
+.font-awesome{
+    padding: 20px 0;
+    font-size: 20px;
+}
 
+i:hover{
+    cursor: pointer;
+}
 
+/* Bonus */
+a:link {
+    color : var(--dark-text);
+    text-decoration: none
+}
 
+a:visited{
+    color : var(--primary-color);
+    text-decoration: none
+}
+
+li a:hover{
+    text-decoration: underline;
+}
