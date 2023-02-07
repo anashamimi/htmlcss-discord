@@ -18,9 +18,9 @@
     padding: 0 15px;
 }
 
-.debug{
+/* .debug{
     border: 1px solid black;
-}
+} */
 
 body{
     background-color: var(--primary-color);
@@ -120,6 +120,10 @@ h1{
 
 /* Inizio main */
 
+section{
+    padding: 10% 0;
+}
+
 .even{
     background-color: var(--bg-section);
     flex-flow: row-reverse wrap;
@@ -150,6 +154,17 @@ h1{
 }
 .right{
     width: 40%;
+}
+
+.wave{
+    background-image: url(../img/wave.svg);
+    background-size: cover;
+    background-position: center;   
+    height: 100px;
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
 }
 
 h2{
@@ -206,9 +221,16 @@ li ul li{
 }
 
 .footer-bottom{
-    padding-top: 25px;
+    padding: 20px 0 50px;
     border-top: 1px solid var(--light-bar);
 }
+
+.footer-button{
+    background-color: var(--light-bar);
+    width: fit-content;
+   
+}
+
 
 
 
